@@ -118,4 +118,5 @@ Para ajudar nas dúvidas mais comuns, disponibilizei um **guia em PDF** com inst
 - abrir e responder *Issues*  
 
 📥 **Baixe o PDF aqui:**  
-👉 [Clique para abrir o Guia do GitHub para Alunos](materiais/guia_github_para_alunos.pdf)
+👉 [Clique para abrir o Guia do GitHub para Alunos](materiais/Guia do GitHub para Alunos.pdf)
+

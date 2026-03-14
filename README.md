@@ -87,9 +87,35 @@ Além dos arquivos de feedback, o professor também poderá usar **Issues** para
 - acompanhar revisões  
 - dar devolutivas rápidas  
 
+---
 ### Como funciona na prática
 
 - O professor pode abrir uma *Issue* com título como:  
   **“Feedback – Aula 03 – João Silva”**
 - O aluno pode responder, corrigir o código e marcar como resolvido.
 - O aluno também pode abrir *Issues* para tirar dúvidas.
+
+## 📘 Guia para os Alunos – Como Usar o GitHub
+
+<div align="center">
+
+🧑‍💻 Primeiros Passos • 📂 Criar Pastas • 📄 Criar Arquivos • ⬆️ Fazer Upload  
+<br><br>
+
+<img src="https://img.shields.io/badge/Guia-PDF%20Completo-blue?style=for-the-badge">
+<img src="https://img.shields.io/badge/GitHub-Passo%20a%20Passo-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/Suporte-Professor-black?style=for-the-badge">
+
+</div>
+
+Para ajudar nas dúvidas mais comuns, disponibilizei um **guia em PDF** com instruções básicas sobre como:
+
+- criar pastas  
+- criar arquivos  
+- fazer upload de atividades  
+- visualizar o preview  
+- entender commits  
+- abrir e responder *Issues*  
+
+📥 **Baixe o PDF aqui:**  
+👉 [Clique para abrir o Guia do GitHub para Alunos](materiais/guia_github_para_alunos.pdf)

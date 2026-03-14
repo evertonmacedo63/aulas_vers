@@ -94,7 +94,7 @@ Além dos arquivos de feedback, o professor também poderá usar **Issues** para
   **“Feedback – Aula 03 – João Silva”**
 - O aluno pode responder, corrigir o código e marcar como resolvido.
 - O aluno também pode abrir *Issues* para tirar dúvidas.
-
+---
 ## 📘 Guia para os Alunos – Como Usar o GitHub
 
 <div align="center">

@@ -117,6 +117,8 @@ Para ajudar nas dúvidas mais comuns, disponibilizei um **guia em PDF** com inst
 - entender commits  
 - abrir e responder *Issues*  
 
+---
 📥 **Baixe o PDF aqui:**  
-👉 [Clique para abrir o Guia do GitHub para Alunos](materiais/Guia do GitHub para Alunos.pdf)
+👉 [Clique para abrir o Guia do GitHub para Alunos](materiais/Guia%20do%20GitHub%20para%20Alunos.pdf)
+
 

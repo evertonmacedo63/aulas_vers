@@ -35,7 +35,6 @@ Acredito que aprender a usar ferramentas como Git e GitHub prepara vocês para o
 
 ---
 
-## 🗂️ Estrutura do Repositório
 ## 📁 Estrutura do Repositório dos Alunos
 
 <div align="center">

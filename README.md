@@ -1,4 +1,4 @@
-<h1 align="center">🎓 Aulas & Materiais – 3ºF Leos 2026</h1>
+<h1 align="center">🎓 Aulas & Materiais 3ºF 2026</h1>
 <h3 align="center">Repositório oficial do Professor Everton Macedo</h3>
 <div align="center">
 

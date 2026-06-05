@@ -1,0 +1,8 @@
+Questionário semana 9
+
+1.	Usando a analogia do cofre digital, expliquem por que é importante nunca colocar secrets diretamente no código-fonte.  
+
+
+2.	Como o conceito "configure-once, deploy-many" melhora a segurança e eficiência dos deploys?  
+
+3.	Por que máscaras de log são essenciais mesmo quando usamos sistemas de secrets seguros? 

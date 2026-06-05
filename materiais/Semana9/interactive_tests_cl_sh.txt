@@ -1,0 +1,77 @@
+#!/bin/bash
+# ======================================================================
+# interactive_tests_ci.sh — Versão 100% automática para GitHub Actions
+# ----------------------------------------------------------------------
+# Este script executa TODAS as simulações do script interativo original,
+# mas sem loops, sem menus e sem prompts. Ideal para CI/CD.
+# ======================================================================
+
+clear
+echo "=============================================================="
+echo "        🚀 Testes Interativos do Cofre Digital (CI Mode)"
+echo "=============================================================="
+echo ""
+echo "Iniciando execução automática..."
+echo ""
+
+# ------------------------------------------------------------
+# 1) Simular build da imagem Docker
+# ------------------------------------------------------------
+echo "[1/5] Simulando construção da imagem Docker..."
+echo "docker build -f docker/Dockerfile -t cofre-digital-local ."
+echo ">> (SIMULAÇÃO) Build concluído com sucesso!"
+echo ""
+
+# ------------------------------------------------------------
+# 2) Simular execução do container com secrets
+# ------------------------------------------------------------
+echo "[2/5] Simulando execução do container com secrets..."
+echo "docker run -d --name cofre-test -p 5000:5000 \\"
+echo "  -e ENVIRONMENT=test \\"
+echo "  -e DB_HOST=test-db.local \\"
+echo "  -e DB_USER=test_user \\"
+echo "  -e DB_PASSWORD=test_password_123 \\"
+echo "  -e EXTERNAL_API_KEY=test_key_abcd1234 \\"
+echo "  cofre-digital-local"
+echo ">> (SIMULAÇÃO) Container iniciado!"
+echo ""
+
+# ------------------------------------------------------------
+# 3) Testar endpoints simulados
+# ------------------------------------------------------------
+echo "[3/5] Testando endpoints simulados..."
+echo ""
+echo "GET /"
+echo '{ "status": "ok", "message": "Cofre Digital em execução (simulado)" }'
+echo ""
+echo "GET /database"
+echo '{ "database": "connected", "user": "test_user", "password": "***MASKED***" }'
+echo ""
+echo "GET /api-key"
+echo '{ "api_key": "***MASKED***" }'
+echo ""
+
+# ------------------------------------------------------------
+# 4) Logs mascarados
+# ------------------------------------------------------------
+echo "[4/5] Logs mascarados:"
+echo ""
+echo "[INFO] Conectando ao banco test_db em test-db.local"
+echo "[INFO] Usuário: test_user"
+echo "[INFO] Senha configurada: True"
+echo "[DEBUG] Connection string (mascarada): postgresql://test_user:****1234@test-db.local/test_db"
+echo ""
+
+# ------------------------------------------------------------
+# 5) Simular erro de conexão
+# ------------------------------------------------------------
+echo "[5/5] Simulando erro de conexão..."
+echo "[ERRO SIMULADO] Falha ao conectar ao banco!"
+echo "[INFO] SecureLogger: erro mascarado registrado com sucesso."
+echo ""
+
+echo "=============================================================="
+echo "✔ Execução automática concluída com sucesso!"
+echo "=============================================================="
+
+exit 0
